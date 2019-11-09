@@ -5,7 +5,19 @@ html, body {
   height:100%;
   width:100%;
   font-family: 'Poppins', sans-serif;
-  color: #222;
+  color: #BFF5FF;
+  background-color: #BFF5FF;
+}
+.container-fluid .GENERAL{
+background-color: #DCF6FB;
+}
+
+.container-fluid .TESTIMONIALS{
+background-color: #6387D4;
+}
+
+.container-fluid .DR {
+  background-color: #B3DCE5;
 }
 
 .navbar {
@@ -69,6 +81,20 @@ img {
   padding-bottom: 2rem;
 }
 
+.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  transform: translateY(15%);
+  width:auto;
+}
+
+.transbox h2, .transbox p {
+  weight: bold;
+  color: black;
+}
 .social a {
   font-size: 4.5em;
   padding: 3rem;
